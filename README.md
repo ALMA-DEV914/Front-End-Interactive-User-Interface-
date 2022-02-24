@@ -66,6 +66,6 @@ SOFTWARE.
 
 #### Snaphot of the application
 
-<img width="1792" alt="Screen Shot 2021-11-08 at 4 10 47 PM" src="https://user-images.githubusercontent.com/65073138/140838056-d52db822-8f62-4743-be39-132d4485b9c7.png">
+<img width="1792" alt="Screen Shot 2022-02-24 at 2 41 27 PM" src="https://user-images.githubusercontent.com/65073138/155619698-661ba8cf-24de-4eb4-943a-a1af4f16a852.png">
 
-<img width="1792" alt="Screen Shot 2021-11-08 at 10 38 11 PM" src="https://user-images.githubusercontent.com/65073138/140874661-8e6629af-62cd-4e71-94e1-d8c5b37214bc.png">
+<img width="1787" alt="Screen Shot 2022-02-24 at 2 41 14 PM" src="https://user-images.githubusercontent.com/65073138/155619711-cdf3b637-bde5-45ab-b2a4-3559ecaed643.png">
