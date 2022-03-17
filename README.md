@@ -59,6 +59,13 @@ SOFTWARE.
      THEN the previous movie display will disappear and will be replaced by new movie with poster, plot and ratings.
      WHEN I click on a movie title in the search history.
      THEN I am again presented with the poster, plot and ratings of that certain movie.
+     
+     
+ ### Usage
+ 
+     Git clone the repository into a directory or folder you want to store the app.
+     Then *cd <project>* click the *go live* on the Visual Studio code. The app will automatically open in your browser.
+     Or you can run open index.html from the command line.
 
 ### Deployed application link
   https://alma-dev914.github.io/Front-End-Interactive-User-Interface-/
