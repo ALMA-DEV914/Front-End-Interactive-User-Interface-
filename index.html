@@ -15,16 +15,18 @@
     <title>Group-5-Creation</title>
 </head>
     <body>
-    <header class="hero"></header>
+      <nav> <h1 class="title">Stories-on-the-go!</h1></nav>
+    <header class="hero">
+    </header>
     <!--header title-->
-    <h1 class="title">Stories-on-the-go!</h1>
         <!--hero card left-->
     <main class="flex-row justify-space-between">
+      
         <div class="col-lg-4 col-md-8 poster-article ">
             <form>
                 <!--search bar-->
             <input list="list-item" type="text" name="movies" onfocus="this.value=''" id= "movie-title" placeholder="Search here">
-            <button type="submit" id="searchbutton" data-toggle="modal" data-target="#myModal"><i class="fas fa-search"></i></button>
+            <button type="submit" id="searchbutton"><i class="fas fa-search"></i></button>
             </form>
             <datalist id="list-item">
                <option value="Avengers"></option> 
@@ -83,51 +85,19 @@
    
         <!--local storage based on history of past searches-->
         <div class="col-lg-5 col-md-12 reviews-section">
-            <p style="color:white;">This site is providing you information about movies. The poster, plot and critics are given so that you will have idea about a certain movie if you're planning to watch whenever you want. Enjoy the searching! </p>
-            <p style="color: aliceblue;">Looking for a good movies?  <a href="https://www.hotstar.com/in/movies"> Checkout here! </a></p>
+            <p>This site is providing you information about movies. The poster, plot and critics are given so that you will have idea about a certain movie if you're planning to watch whenever you want. Enjoy the searching! </p>
+            <p >Looking for a good movies?  <a href="https://www.hotstar.com/in/movies"> Checkout here! </a></p>
             <!--second filled aspect after search: plot-->
-            <h3>Plot</h3>
-            <textarea id="plot"></textarea>
+            <div class="description">
+            <h3>Description</h3>
+            <p id="plot"></p>
             <!--third filled aspect after search: critic rating-->
-            <h3>Critic Rating</h3>
-            <article id="critic-ratings"></article>
+            <p id="critic-ratings"></p>
+            </div>
         </div>
         
-        <div class="col-lg-3 col-md-5 " id="dropdown"></div>
-    </main>
-
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-          
-            <!-- Modal Header -->
-                
-             <div class="modal-header">
-              <h4 class="modal-title">Trailers Soon</h4>
-              <button type="button" class="close" data-dismiss="modal">×</button>
-            </div>
-            
-            <!-- Modal body -->
-            <div class="modal-body" id="myVideo">
-            <a href="https://www.youtube.com/embed/1BBZY2kX1tY">Trailers This Week</a> /
-            <a href="https://www.youtube.com/embed/KgAiCV9WKbQ">The Last legion</a> /
-            <a href="https://www.youtube.com/embed/Q3oukN2EIDM">The Best Upcoming Movies (New Trailers)</a> /
-            <a href="https://www.youtube.com/embed/cG0feucWQ1c">New Trailers This Week</a> /
-            <a href= "https://www.youtube.com/embed/R8SZtNhL_W4">Movieclips Trailer</a> /
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Gc-2orMEMPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            
-            <!-- Modal footer -->
-            <div class="modal-footer">
-             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      
-    </div>
-    
+        <div class="col-lg-3 col-md-4 " id="dropdown"></div>
+      </main>
         
     <!--footer-->
     <footer class="flex-row justify-space-between">
